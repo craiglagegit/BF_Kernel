@@ -4,11 +4,17 @@ Here is a new attempt at implementing the Coulton, et.al. BF correction on spots
 (1) Each flat directory consists of 500 flats - 50 pairs each at 5 different intensities (about 20K, 40K, 60K, 80K, and 100K electrons).  The flats are in the following directories at SLAC:
 
 /nfs/farm/g/desc/u1/data/UCD-sims/CCD/002/flats/20170802_002_flats_Vp38
+
 /nfs/farm/g/desc/u1/data/UCD-sims/CCD/002/flats/20180516_002_flats_2
+
 /nfs/farm/g/desc/u1/data/UCD-sims/CCD/002/flats/20180516_002_flats_3
+
 /nfs/farm/g/desc/u1/data/UCD-sims/CCD/002/flats/20180517_002_flats_1
+
 /nfs/farm/g/desc/u1/data/UCD-sims/CCD/002/flats/20180517_002_flats_2
+
 /nfs/farm/g/desc/u1/data/UCD-sims/CCD/002/flats/20180517_002_flats_3
+
 /nfs/farm/g/desc/u1/data/UCD-sims/CCD/002/flats/20180517_002_flats_4
 
 (2) For each of the directories, I ran the code calculate_covariances/Flat_Correlations_Diff_15May18.py for each of the 5 intensities to extract the correlations.
